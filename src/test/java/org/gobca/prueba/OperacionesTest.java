@@ -30,6 +30,12 @@ public class OperacionesTest
 	public void pruebaDeMultiplicacionTest() {
 		assertEquals("La multiplicacion ha dejado de ser correcta", 20, Operaciones.multiplicacion(2, 10)); } 
 	
+	@Test 
+	public void pruebaDeMultiplicacion2Test() {
+		assertEquals("La multiplicacion ha dejado de ser correcta", 50, Operaciones.multiplicacion(5, 10)); } 
+	@Test 
+	public void pruebaDeMultiplicacion3Test() {
+		assertEquals("La multiplicacion ha dejado de ser correcta", 0, Operaciones.multiplicacion(0, 10000)); } 
 	
 	
 	@Test public void pruebaDeDivision5Test()
